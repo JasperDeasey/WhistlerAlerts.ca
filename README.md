@@ -9,7 +9,7 @@ It is an online application that allows users to track days on Whistler Blackcom
 Currently, it is available on http://172.105.11.44/; however, this will soon be taken down as Linode does not allow emails to send without a 3rd part email manager (to reduce spam emails).
 
 ### How it's made
-The application is created in Python using Flask to run the website, Selenium to scrape data from whistlerblackcomb.com, a Linode server running Ubuntu, and Apache. The program running on Linode's linux server is slightly modified so that it avoids apache's restrictions.
+The application is created in Python using Flask to run the website, Selenium to scrape data from whistlerblackcomb.com, Bootstrap to style, a Linode server running Ubuntu, and Apache. The program running on Linode's linux server is slightly modified so that it avoids apache's restrictions.
 
 ### Challenges
 Getting the linux server to work was very tricky - it was my first time using linux, and the debugging process took time to understand.
