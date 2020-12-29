@@ -19,6 +19,6 @@ On a local host, the app works just as I hoped it would, and I am even more prou
 
 ### Future
 To finish the project, I would need to make the email work over the server. This would require:
-  1) transition to a new server, such as AWL (using their email services), or
+  1) transition to a new server, such as AWS (using their email services), or
   2) pay for a 3rd party email manager
 I also didn't make the app very future-proof, as the reservations are only available for this season (due to Covid-19).
