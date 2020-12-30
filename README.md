@@ -22,3 +22,7 @@ To finish the project, I would need to make the email work over the server. This
   1) transition to a new server, such as AWS (using their email services), or
   2) pay for a 3rd party email manager
 I also didn't make the app very future-proof, as the reservations are only available for this season (due to Covid-19).
+
+
+### Edit:
+Instead of sending emails the proper way, I used selenium to go into the gmail account and send the messages. This significantly slows down the project (and is borderline not-usable), but a 10 minute wait is better than a $10 plan, so I'll leave it as-is. Feel free to check it out at http://172.105.11.44/!
