@@ -10,26 +10,6 @@ MY_ADDRESS = 'my_email@gmail.com'
 PASSWORD = 'my_password'
 
 
-def get_contacts():
-    """
-    Return two lists names, emails containing names and email_interactions addresses
-    read from a file specified by filename.
-    """
-    with open("../wb_interactions/web_form_data.json", mode='r', encoding='utf-8') as contacts_file:
-        return json.dumps(contacts_file.read())
-
-
-def read_template(filename):
-    """
-    Returns a Template object comprising the contents of the
-    file specified by filename.
-    """
-
-    with open(filename, 'r', encoding='utf-8') as template_file:
-        template_file_content = template_file.read()
-    return Template(template_file_content)
-
-
 def send_email(email, month, date):
     # names, emails = get_contacts('mycontacts.txt')  # read contacts
 
