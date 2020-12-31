@@ -6,8 +6,8 @@ import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-MY_ADDRESS = 'epicreservationtracker@gmail.com'
-PASSWORD = 'testingTESTING123!'
+MY_ADDRESS = 'my_email@gmail.com'
+PASSWORD = 'my_password'
 
 
 def get_contacts():
