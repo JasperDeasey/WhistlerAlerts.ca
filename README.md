@@ -6,10 +6,10 @@ I made this program for my friends, as days quickly became reserved on Whistler 
 
 ### Usage
 It is an online application that allows users to track days on Whistler Blackcomb and recieve an email when the day becomes available.
-Currently, it is available on http://172.105.11.44/; however, this will soon be taken down as Linode does not allow emails to send without a 3rd part email manager (to reduce spam emails).
+It is available on http://whistleralerts.ca/ and alerts users (after a LOT of trial and error).
 
 ### How it's made
-The application is created in Python using Flask to run the website, Selenium to scrape data from whistlerblackcomb.com, Bootstrap to style, a Linode server running Ubuntu, and Apache. The program running on Linode's linux server is slightly modified so that it avoids apache's restrictions.
+The application is created in Python using Flask to run the website, Selenium to scrape data from whistlerblackcomb.com, Bootstrap to style, a Linode server running Ubuntu, and Apache. The program running on Linode's linux server is slightly modified from the version on this repository.
 
 ### Challenges
 Getting the linux server to work was very tricky - it was my first time using linux, and the debugging process took time to understand.
@@ -18,11 +18,4 @@ Getting the linux server to work was very tricky - it was my first time using li
 On a local host, the app works just as I hoped it would, and I am even more pround of putting up my first website (even if it doesn't work...) !
 
 ### Future
-To finish the project, I would need to make the email work over the server. This would require:
-  1) transition to a new server, such as AWS (using their email services), or
-  2) pay for a 3rd party email manager
-I also didn't make the app very future-proof, as the reservations are only available for this season (due to Covid-19).
-
-
-### Edit:
-Instead of sending emails the proper way, I used selenium to go into the gmail account and send the messages. This significantly slows down the project (and is borderline not-usable), but a 10 minute wait is better than a $10 plan, so I'll leave it as-is. Feel free to check it out at http://172.105.11.44/!
+Currently, the data is held in JSON files; however, adding an SQL database would be a nice addition I have time. Also, I didn't make it very future-proof. It requires manual changes to update it every month, and automating these will be necessary if the user base becomes big enough.
