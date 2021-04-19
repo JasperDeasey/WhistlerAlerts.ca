@@ -18,4 +18,4 @@ Getting the linux server to work was very tricky - it was my first time using li
 On a local host, the app works just as I hoped it would, and I am even more pround of putting up my first website!
 
 ### Future
-Currently, the data is held in JSON files; however, adding an SQL database would be a nice addition I have time. Also, I didn't make it very future-proof. It requires manual changes to update it every month, and automating these will be necessary if the user base becomes big enough.
+Currently, the data is held in JSON files; however, adding an SQL database would be a nice addition if I have time. Also, I didn't make it very future-proof. It requires manual changes to update it every month, and automating these will be necessary if the user base becomes big enough.
